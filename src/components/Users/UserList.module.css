@@ -1,0 +1,9 @@
+.user-list {
+  background-color: aquamarine;
+  list-style: none;
+  margin: 2rem auto;
+  width: 600px;
+  padding: 1rem;
+  border: 1px solid slategray;
+  border-radius: 12px;
+}
