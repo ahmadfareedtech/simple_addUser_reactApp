@@ -19,10 +19,12 @@ const UserInput = (props) => {
   const submitUserHandler = (event) => {
     event.preventDefault();
 
+    if (username.trim().length === 0) return;
+
     const newUser = {
       id: Math.random().toString(),
       username: username,
-      age: age,
+      age: +age,
     };
 
     props.onAddUser(newUser);
