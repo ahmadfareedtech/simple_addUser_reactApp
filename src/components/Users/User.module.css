@@ -1,9 +1,6 @@
 .user {
-  background-image: linear-gradient(
-    to right,
-    rgb(255, 218, 11),
-    rgb(180, 255, 119)
-  );
+  background: #4267b2;
+  color: white;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 12px;
